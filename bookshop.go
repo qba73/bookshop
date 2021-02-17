@@ -88,8 +88,9 @@ var Books = map[string]Book{
 		ReleaseYear:    1997,
 		SeriesNumber:   1,
 		PriceCents:     2000,
-		discount:       20,
 		PickOfTheMonth: true,
+		discount:       20,
+		category:       1,
 	},
 	"1912abf7-3f26-4196-b062-011b81b255e9": {
 		ID:             "1912abf7-3f26-4196-b062-011b81b255e9",
@@ -100,8 +101,9 @@ var Books = map[string]Book{
 		ReleaseYear:    2017,
 		SeriesNumber:   2,
 		PriceCents:     3000,
-		discount:       10,
 		PickOfTheMonth: false,
+		discount:       10,
+		category:       0,
 	},
 	"2922bbf7-3g26-4196-b062-071b81b855e9": {
 		ID:             "2922bbf7-3g26-4196-b062-071b81b855e9",
@@ -112,8 +114,9 @@ var Books = map[string]Book{
 		ReleaseYear:    1967,
 		SeriesNumber:   2,
 		PriceCents:     2500,
-		discount:       8,
 		PickOfTheMonth: false,
+		discount:       8,
+		category:       0,
 	},
 	"1923bbf9-3f36-4196-b062-171b81b855e9": {
 		ID:             "1923bbf9-3f36-4196-b062-171b81b855e9",
@@ -124,8 +127,9 @@ var Books = map[string]Book{
 		ReleaseYear:    2011,
 		SeriesNumber:   1,
 		PriceCents:     1000,
-		discount:       5,
 		PickOfTheMonth: true,
+		discount:       5,
+		category:       2,
 	},
 	"1923bbf9-4f36-4196-b062-171b81b855e9": {
 		ID:             "1923bbf9-4f36-4196-b062-171b81b855e9",
@@ -136,8 +140,9 @@ var Books = map[string]Book{
 		ReleaseYear:    2011,
 		SeriesNumber:   1,
 		PriceCents:     1000,
-		discount:       5,
 		PickOfTheMonth: true,
+		discount:       5,
+		category:       1,
 	},
 }
 
