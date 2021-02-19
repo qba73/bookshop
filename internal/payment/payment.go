@@ -1,7 +1,7 @@
-package bookshop
+package payment
 
-// PaymentProcessor defines how payment function signatures should look like.
-type PaymentProcessor func(bookID string, price int) (bool, error)
+// Processor defines how payment function signatures should look like.
+type Processor func(bookID string, price int) (bool, error)
 
 // Pay knows how to process payment for the books.
 // Upon successfull transaction it returns true, false otherwise.

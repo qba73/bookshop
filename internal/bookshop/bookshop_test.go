@@ -8,6 +8,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
 	"github.com/qba73/bookshop"
+	"github.com/qba73/bookshop/payment"
 )
 
 var testBooks = map[string]bookshop.Book{
@@ -315,7 +316,7 @@ func TestBuyBook(t *testing.T) {
 	tt := []struct {
 		name        string
 		book        bookshop.Book
-		payer       bookshop.PaymentProcessor
+		payer       payment.Processor
 		want        bool
 		expectedErr bool
 	}{

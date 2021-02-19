@@ -1,9 +1,9 @@
-package bookshop_test
+package payment_test
 
 import (
 	"testing"
 
-	"github.com/qba73/bookshop"
+	"github.com/qba73/bookshop/payment"
 )
 
 func TestPay(t *testing.T) {
@@ -18,7 +18,7 @@ func TestPay(t *testing.T) {
 	}
 
 	for _, tc := range tt {
-		got, err := bookshop.Pay(tc.bookID, tc.price)
+		got, err := payment.Pay(tc.bookID, tc.price)
 
 		if (err != nil) != tc.expectedErr {
 			t.Fatalf("expected error")
