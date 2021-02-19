@@ -3,7 +3,7 @@ package payment_test
 import (
 	"testing"
 
-	"github.com/qba73/bookshop/payment"
+	"github.com/qba73/bookshop/internal/payment"
 )
 
 func TestPay(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/qba73/bookshop/order"
+	"github.com/qba73/bookshop/internal/bookshop/order"
 )
 
 func TestNew(t *testing.T) {

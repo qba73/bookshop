@@ -7,8 +7,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"github.com/qba73/bookshop"
-	"github.com/qba73/bookshop/payment"
+	"github.com/qba73/bookshop/internal/bookshop"
+	"github.com/qba73/bookshop/internal/payment"
 )
 
 var testBooks = map[string]bookshop.Book{
